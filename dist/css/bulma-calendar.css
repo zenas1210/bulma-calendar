@@ -1510,3 +1510,16 @@
   width: 22rem;
   max-width: 95vw;
   overflow-y: auto; }
+
+.calendar-day-subtext {
+  color: grey;
+  font-size: 0.7em; }
+
+div.datepicker-date.datepicker-range:not(.datepicker-range-start):not(.datepicker-range-end) .calendar-day-subtext {
+  color: lightgray; }
+
+div.datepicker-date.datepicker-range-start:not(.datepicker-range) .calendar-day-subtext {
+  color: lightgray; }
+
+.datetimepicker-selection-day {
+  white-space: nowrap; }

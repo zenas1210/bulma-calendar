@@ -744,6 +744,7 @@ export default class datePicker extends EventEmitter {
                 isThisMonth,
                 isHighlighted: isHighlighted,
                 isInRange,
+                subtext: this.options.subtexts[dateFns.format(theDate, 'Y-MM-dd')],
             };
 
         });

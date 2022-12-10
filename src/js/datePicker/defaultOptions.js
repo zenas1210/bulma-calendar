@@ -23,6 +23,7 @@ const defaultOptions = {
         selectYear:      'yyyy',
         weekday:         'ccc',
     },
+    subtexts: {},
 };
 
 export default defaultOptions;
